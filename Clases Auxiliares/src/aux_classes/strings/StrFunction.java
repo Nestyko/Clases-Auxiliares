@@ -47,6 +47,150 @@ public class StrFunction{
 		}
 		return coincidencias;
 	}
+	/**
+	 * Convierte un vector de cualquier tipo en un String separando cada elemento con 4 espacios.
+	 * @param element Es un vector de cualquier tipo de variable.
+	 * @return El vector en forma de String, cada elemento separado por 4 espacios
+	 */
+	public static <T> void toString(T[] element){
+		for (int i = 0; i < element.length; i++) {
+			if(element[i] != null){
+				System.out.print( element[i]+"    ");
+			}
+		}
+	}
+	
+//	/**
+//	 * Convierte un vector en una cadena de caracteres, diviendo a cada elemento con 3 espacios 
+//	 * @param vec es el vector
+//	 * @return el vector como una cadena de caracteres(String)
+//	 */
+//	public static String toString(int[] vec){
+//		String a = " ";
+//		for (int i = 0; i < vec.length; i++) {
+//			a = ( a + (vec[i]+ "   "));
+//		}
+//		return a;
+//	}
+//	
+//	/**
+//	 * Convierte un vector en una cadena de caracteres, diviendo a cada elemento con 3 espacios 
+//	 * @param vec es el vector
+//	 * @return el vector como una cadena de caracteres(String)
+//	 */
+//	public static String toString(short[] vec){
+//		String a = " ";
+//		for (int i = 0; i < vec.length; i++) {
+//			a = ( a + (vec[i]+ "   "));
+//		}
+//		return a;
+//	}
+//	
+//	/**
+//	 * Convierte un vector en una cadena de caracteres, diviendo a cada elemento con 3 espacios 
+//	 * @param vec es el vector
+//	 * @return el vector como una cadena de caracteres(String)
+//	 */
+//	public static String toString(double[] vec){
+//		String a = " ";
+//		for (int i = 0; i < vec.length; i++) {
+//			a = ( a + (vec[i]+ "   "));
+//		}
+//		return a;
+//	}
+//	
+//	/**
+//	 * Convierte un vector en una cadena de caracteres, diviendo a cada elemento con 3 espacios 
+//	 * @param vec es el vector
+//	 * @return el vector como una cadena de caracteres(String)
+//	 */
+//	public static String toString(float[] vec){
+//		String a = " ";
+//		for (int i = 0; i < vec.length; i++) {
+//			a = ( a + (vec[i]+ "   "));
+//		}
+//		return a;
+//	}
+//	
+//	/**
+//	 * Convierte un vector en una cadena de caracteres, diviendo a cada elemento con 3 espacios 
+//	 * @param vec es el vector
+//	 * @return el vector como una cadena de caracteres(String)
+//	 */
+//	public static String toString(byte[] vec){
+//		String a = " ";
+//		for (int i = 0; i < vec.length; i++) {
+//			a = ( a + (vec[i]+ "   "));
+//		}
+//		return a;
+//	}
+//	
+//	/**
+//	 * Convierte un vector en una cadena de caracteres, diviendo a cada elemento con 3 espacios 
+//	 * @param vec es el vector
+//	 * @return el vector como una cadena de caracteres(String)
+//	 */
+//	public static String toString(long[] vec){
+//		String a = " ";
+//		for (int i = 0; i < vec.length; i++) {
+//			a = ( a + (vec[i]+ "   "));
+//		}
+//		return a;
+//	}
+//	
+//	/**
+//	 * Convierte el numero en una cadena de caracteres(String)
+//	 * @param x Integer a convertir en String
+//	 * @return El numero como String
+//	 */
+//	public static String toString(int x){
+//		return x+"";
+//	}
+//	
+//	/**
+//	 * Convierte el numero en una cadena de caracteres(String)
+//	 * @param x numero a convertir en String
+//	 * @return El numero como String
+//	 */
+//	public static String toString(float x){
+//		return x+"";
+//	}
+//	
+//	/**
+//	 * Convierte el numero en una cadena de caracteres(String)
+//	 * @param x numero a convertir en String
+//	 * @return El numero como String
+//	 */
+//	public static String toString(double x){
+//		return x+"";
+//	}
+//	
+//	/**
+//	 * Convierte el numero en una cadena de caracteres(String)
+//	 * @param x numero a convertir en String
+//	 * @return El numero como String
+//	 */
+//	public static String toString(byte x){
+//		return x+"";
+//	}
+//	
+//	/**
+//	 * Convierte el numero en una cadena de caracteres(String)
+//	 * @param x numero a convertir en String
+//	 * @return El numero como String
+//	 */
+//	public static String toString(short x){
+//		return x+"";
+//	}
+//	
+//	/**
+//	 * Convierte el numero en una cadena de caracteres(String)
+//	 * @param x numero a convertir en String
+//	 * @return El numero como String
+//	 */
+//	public static String toString(long x){
+//		return x+"";
+//	}
 	
 	
 	
