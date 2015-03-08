@@ -48,6 +48,102 @@ public class StrFunction{
 		return coincidencias;
 	}
 	
+	/**
+	 * Convierte un arreglo en un String dejando 3 espacios entre cada elemento
+	 * @param array
+	 * @return El arreglo en forma de String
+	 */
+	public static String toString(int[] array){
+		String a = "";
+		try {
+			for (int i = 0; i < array.length; i++) {
+				a += array[i] + "   ";
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return a;
+	}
 	
+	/**
+	 * Convierte un arreglo en un String dejando 3 espacios entre cada elemento
+	 * @param array
+	 * @return El arreglo en forma de String
+	 */
+	public static String toString(double[] array){
+		String a = "";
+		try {
+			for (int i = 0; i < array.length; i++) {
+				a += array[i] + "   ";
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return a;
+	}
 	
+	/**
+	 * Convierte un arreglo en un String dejando 3 espacios entre cada elemento
+	 * @param array
+	 * @return El arreglo en forma de String
+	 */
+	public static String toString(short[] array){
+		String a = "";
+		try {
+			for (int i = 0; i < array.length; i++) {
+				a += array[i] + "   ";
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return a;
+	}
+	/**
+	 * Convierte un arreglo en un String dejando 3 espacios entre cada elemento
+	 * @param array
+	 * @return El arreglo en forma de String
+	 */
+	public static String toString(byte[] array){
+		String a = "";
+		try {
+			for (int i = 0; i < array.length; i++) {
+				a += array[i] + "   ";
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return a;
+	}
+	/**
+	 * Convierte un arreglo en un String dejando 3 espacios entre cada elemento
+	 * @param array
+	 * @return El arreglo en forma de String
+	 */
+	public static String toString(long[] array){
+		String a = "";
+		try {
+			for (int i = 0; i < array.length; i++) {
+				a += array[i] + "   ";
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return a;
+	}
+	/**
+	 * Convierte un arreglo en un String dejando 3 espacios entre cada elemento
+	 * @param array
+	 * @return El arreglo en forma de String
+	 */
+	public static String toString(float[] array){
+		String a = "";
+		try {
+			for (int i = 0; i < array.length; i++) {
+				a += array[i] + "   ";
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return a;
+	}
 }

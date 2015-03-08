@@ -1,17 +1,25 @@
 package aux_classes;
-import java.util.Scanner;
+
+import java.util.Random;
+
+import aux_classes.strings.StrFunction;
 
 
 public class Prueba_Clases{
 
-	private static Scanner input = new Scanner(System.in);
 
+	private static Random rand =  new Random();
+	
 	public static void main (String[] args){
 
-		System.out.print("Please enter your favorite number: ");
-		int number = input.nextInt();
-		Print.cls();
-		Print.outSln(number+"");
+		int[] numeros =  new int[10];
+		
+		for (int i = 0; i < numeros.length; i++) {
+			numeros[i] = rand.nextInt(50);
+		}
+		
+		System.out.println(StrFunction.toString(numeros));
+		
 		
 		
 
