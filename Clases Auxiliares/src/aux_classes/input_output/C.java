@@ -276,6 +276,7 @@ public class C {
 		public static String solo_letras(String a){
 
 			boolean numero = false;
+			boolean especial = false;
 			do{
 				if(a.length() == 0){
 								numero = false;
@@ -304,6 +305,10 @@ public class C {
 
 		return a;
 			}//solo_letras
+		
+		
+	
+		
 
 		//LEER VECTORES
 //Los vectores tienen que estar incializado, es decir, deben de tener un tamaño prestablecido
